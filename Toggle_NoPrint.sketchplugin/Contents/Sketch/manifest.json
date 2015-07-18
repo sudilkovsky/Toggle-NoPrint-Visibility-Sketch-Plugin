@@ -1,8 +1,8 @@
 {
   "author" : "Denis Susilkovsky",
   "authorEmail" : "sudilkovsky@gmail.com",
-  "homepage": "https://github.com/sudilkovsky/Toggle_NoPrint.sketchplugin",
-  "version": 1.0.1,
+  "homepage": "https://github.com/sudilkovsky/Toggle-NoPrint-Visibility-Sketch-Plugin",
+  "version": 1.0,
   "identifier": "com.example.sketch.toggle-noprint",
   "compatibleVersion": 3,
   "bundleVersion": 1,
