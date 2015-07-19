@@ -13,6 +13,6 @@ Based on Sketch <a href="https://gist.github.com/abynim/e2df3ea4dc9ede209cc0">Pl
 ## What's new?
 #### 1.1
 <li>Added hide and lock/unlock functions </li>
-<li>Added shortcut </li>
+<li>Added shortcuts </li>
 
 
