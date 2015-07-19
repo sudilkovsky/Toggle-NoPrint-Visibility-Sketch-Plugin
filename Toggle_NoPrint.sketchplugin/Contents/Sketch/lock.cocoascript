@@ -8,7 +8,7 @@ var onRun = function(context) {
 
 	for (var i=0; i<noprintLayerArray.count(); i++) {
 		var layer = noprintLayerArray[i];
-		[layer setIsVisible:![layer isVisible]]
+		[layer setIsLocked: true]
 	};        
 
 

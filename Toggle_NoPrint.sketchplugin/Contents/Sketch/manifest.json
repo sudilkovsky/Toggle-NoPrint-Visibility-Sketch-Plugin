@@ -2,7 +2,7 @@
   "author" : "Denis Susilkovsky",
   "authorEmail" : "sudilkovsky@gmail.com",
   "homepage": "https://github.com/sudilkovsky/Toggle-NoPrint-Visibility-Sketch-Plugin",
-  "version": 1.0,
+  "version": 1.1,
   "identifier": "com.example.sketch.toggle-noprint",
   "compatibleVersion": 3,
   "bundleVersion": 1,
@@ -10,14 +10,38 @@
     {
       "script" : "toggle.cocoascript",
       "handler" : "onRun",
-      "shortcut" : "cmd shift o",
-      "name" : "Toggle visibility",
+      "shortcut" : "ctrl shift p",
+      "name" : "1. Toggle visibility",
       "identifier" : "toggle"
-    }
+    },
+    {
+      "script" : "hide.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "ctrl cmd shift p",
+      "name" : "2. Hide",
+      "identifier" : "hide"
+    },
+    {
+      "script" : "lock.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "ctrl shift l",
+      "name" : "3. Lock",
+      "identifier" : "lock"
+    },
+    {
+      "script" : "unlock.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "ctrl cmd shift l",
+      "name" : "4. Unlock",
+      "identifier" : "unlock"
+    },
   ],
   "menu" : {
     "items" : [
-      "toggle"
+      "toggle",
+      "hide",
+      "lock",
+      "unlock"
     ],
     "title" : "Toggle NoPrint"
   },
