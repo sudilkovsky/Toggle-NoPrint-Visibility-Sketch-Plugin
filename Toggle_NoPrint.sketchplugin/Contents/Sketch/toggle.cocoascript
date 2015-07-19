@@ -4,7 +4,7 @@ var onRun = function(context) {
 
 
 
-	var noprintLayerArray = findLayersNamed_inContainer_filterByType("_np");
+	var noprintLayerArray = findLayersNamed_inContainer_filterByType(".np");
 
 	for (var i=0; i<noprintLayerArray.count(); i++) {
 		var layer = noprintLayerArray[i];
