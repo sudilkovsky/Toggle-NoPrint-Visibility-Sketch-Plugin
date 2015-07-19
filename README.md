@@ -1,7 +1,7 @@
 # Toggle_NoPrint.sketchplugin
 Toggle Visibility of 'NoPrint' layers in Sketch. v1.0
 
-Show/Hide layers with '_np' suffix in name.
+Show/Hide layers with '<code>.np</code>' suffix in name.
 
 <img src="https://github.com/sudilkovsky/Toggle-NoPrint-Visibility-Sketch-Plugin/blob/master/Demo/how-it-works.gif" alt="Demo" />
 
