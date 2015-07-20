@@ -1,7 +1,7 @@
 # Toggle_NoPrint.sketchplugin
-Toggle Visibility of 'NoPrint' layers in Sketch. v1.0
+Toggle Visibility of 'NoPrint' layers in Sketch. v1.2
 
-Show/Hide layers with '<code>.np</code>' suffix in name.
+Show/Hide, Lock/Unlock and Select All layers with '<code>.np</code>' suffix in name.
 
 <img src="https://github.com/sudilkovsky/Toggle-NoPrint-Visibility-Sketch-Plugin/blob/master/Demo/how-it-works.gif" alt="Demo" />
 
@@ -11,6 +11,11 @@ Based on Sketch <a href="https://gist.github.com/abynim/e2df3ea4dc9ede209cc0">Pl
 
 
 ## What's new?
+#### 1.2
+<ul>
+<li>Added Select All function.</li>
+</ul>
+
 #### 1.1
 <ul>
 <li>Added hide and lock/unlock functions </li>
