@@ -2,7 +2,7 @@
   "author" : "Denis Susilkovsky",
   "authorEmail" : "sudilkovsky@gmail.com",
   "homepage": "https://github.com/sudilkovsky/Toggle-NoPrint-Visibility-Sketch-Plugin",
-  "version": 1.1,
+  "version": 1.2,
   "identifier": "com.example.sketch.toggle-noprint",
   "compatibleVersion": 3,
   "bundleVersion": 1,
