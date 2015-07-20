@@ -1,0 +1,16 @@
+var onRun = function(context) {
+
+	@import 'parser.cocoascript'
+
+	[[doc currentPage] deselectAllLayers] // unselect all items
+
+	var noprintLayerArray = findLayersNamed_inContainer_filterByType(".np");
+
+	for (var i=0; i<noprintLayerArray.count(); i++) {
+		var layer = noprintLayerArray[i];
+		[layer select:true byExpandingSelection:true]
+	};        
+
+
+	
+};

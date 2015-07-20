@@ -35,13 +35,21 @@
       "name" : "4. Unlock",
       "identifier" : "unlock"
     },
+    {
+      "script" : "selectall.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "ctrl cmd shift a",
+      "name" : "5. Select All",
+      "identifier" : "selectall"
+    }
   ],
   "menu" : {
     "items" : [
       "toggle",
       "hide",
       "lock",
-      "unlock"
+      "unlock",
+      "selectall"
     ],
     "title" : "Toggle NoPrint"
   },
